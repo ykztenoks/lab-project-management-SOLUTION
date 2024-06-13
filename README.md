@@ -106,12 +106,13 @@ npm init --y
      - A GET route to retrieve a single project by its ID.
      - A POST route to create a new project.
      - A PUT route to update an existing project by its ID.
+     - A DELETE route to delete an existing project by its ID. (_***As a bonus, try to delete all of the tasks that belong to that project***_)
 
 3. **Define Task routes**
    - In the `routes` folder, create a file named `task.routes.js`. Define the following routes:
      - A POST route to create a new task. The request body should include the project ID to which the task belongs.
      - A PUT route to update an existing task by its ID, specifically for updating its status.
-     - A DELETE route to delete an existing task by its ID.
+     - A DELETE route to delete an existing task by its ID. (Remove the task from the project task array it belongs as well)
 
 ## Iteration 5. Testing Your Routes
 
